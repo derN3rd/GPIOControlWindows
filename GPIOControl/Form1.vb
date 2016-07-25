@@ -8,7 +8,7 @@ Public Class Form1
     Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
         Dim tempip As String
         If gpioIP Is "" Or IsNothing(gpioIP) Then
-            tempip = "192.168.2.123"
+            tempip = "0.0.0.0"
         Else
             tempip = gpioIP
         End If
